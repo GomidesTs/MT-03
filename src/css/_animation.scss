@@ -1,0 +1,78 @@
+#motor1 {
+    cursor: pointer;
+    animation: main 2s ease 0s forwards;
+}
+
+#desiner1 {
+    cursor: pointer;
+    animation: main 2s ease 0s forwards;
+}
+
+#painel1 {
+    cursor: pointer;
+    animation: main 2s ease 0s forwards;
+}
+
+#piloting1 {
+    cursor: pointer;
+    animation: main 2s ease 0s forwards;
+}
+
+
+
+
+#motor2 {
+    cursor: pointer;
+    animation: pulse-reverse 2s ease 2s infinite;
+}
+
+#desiner2 {
+    cursor: pointer;
+    animation: pulse 2s ease 2s infinite;
+}
+
+#panel2 {
+    cursor: pointer;
+    animation: pulse-reverse 2s ease 2s infinite;
+}
+
+#piloting2 {
+    cursor: pointer;
+    animation: pulse 2s ease 2s infinite;
+}
+
+@keyframes main {
+    0% {
+        transform: scale(2);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translate(0, -5px);
+    }
+    50% {
+        transform: translate(-5px, 2px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
+
+@keyframes pulse-reverse {
+    0% {
+        transform: translate(0);
+    }
+    25% {
+        transform: translate(-10, 0px);
+    }
+    50% {
+        transform: translate(5px, -7px);
+    }
+    100% {
+        transform: translate(0);
+    }
+}
